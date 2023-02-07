@@ -1,0 +1,29 @@
+<web-app xmlns="http://JAVA.sun.com/xml/ns/javaee" version="2.5"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+	<!-- DELOYING THE DEMO SERVLET -->
+	<servlet>
+		<servlet-name>first</servlet-name>
+		<servlet-class>servlet_prc_person_controller.PersonController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>first</servlet-name>
+		<url-pattern>/form</url-pattern>
+	</servlet-mapping> 
+	<servlet>
+		<servlet-name>first</servlet-name>
+		<servlet-class>servlet_prc_person_controller.PersonController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>first</servlet-name>
+		<url-pattern>/forms</url-pattern>
+	</servlet-mapping> 
+	<servlet>
+		<servlet-name>first</servlet-name>
+		<servlet-class>servlet_prc_person_controller.PersonHtmlServController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>first</servlet-name>
+		<url-pattern>/save</url-pattern>
+	</servlet-mapping> 
+</web-app>
